@@ -62,7 +62,7 @@ LONG CKey::Close() throw()
   return res;
 }
 
-// win95, win98: deletes sunkey and all its subkeys
+// win95, win98: deletes subkey and all its subkeys
 // winNT to be deleted must not have subkeys
 LONG CKey::DeleteSubKey(LPCTSTR subKeyName) throw()
 {
